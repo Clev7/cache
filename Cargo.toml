@@ -1,0 +1,10 @@
+[package]
+name = "cache"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "sim_cache"
+path = "src/main.rs"
+
+[dependencies]
