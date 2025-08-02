@@ -1,4 +1,6 @@
-use super::ReplacementPolicy;
+pub mod replacement_policy;
+
+use self::replacement_policy::ReplacementPolicy;
 
 #[derive(Debug)]
 struct Cache {
